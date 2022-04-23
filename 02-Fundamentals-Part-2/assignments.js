@@ -13,7 +13,7 @@
 // Function Declarations vs. Expressions
 
 // function percentageOfWorld1(population) {
-//     return population / 7900 * 100;
+// return population / 7900 * 100;
 // }
 
 // console.log(percentageOfWorld1(18.75));
@@ -46,3 +46,26 @@
 // console.log(describePopulation('Kazakhstan', 18.75));
 // console.log(describePopulation('Japan', 125.8));
 // console.log(describePopulation('Denmark', 18.75));
+
+// Arrays
+
+// const populations = [18.75, 125.8, 5.8, 11.3];
+// console.log(populations.length === 4);
+// const percentages = [
+// percentageOfWorld1(populations[0]),
+// percentageOfWorld1(populations[1]),
+// percentageOfWorld1(populations[2]),
+// percentageOfWorld1(populations[3])
+// ];
+// console.log(percentages);
+
+// const neighbours = ['Russia', 'China', 'Kyrgyzstan', 'Uzbekistan', 'Turkmenistan'];
+// console.log(neighbours);
+// neighbours.push('Utopia');
+// console.log(neighbours);
+// neighbours.pop();
+// console.log(neighbours);
+// if (!neighbours.includes('Germany')) console.log('Probably not a central European country :D');
+// const indexChina = neighbours.indexOf('China');
+// neighbours[indexChina] = 'PRC';
+// console.log(neighbours);
