@@ -69,3 +69,29 @@
 // const indexChina = neighbours.indexOf('China');
 // neighbours[indexChina] = 'PRC';
 // console.log(neighbours);
+
+// Objects
+
+// const myCountry = {
+//     country: 'Kazakhstan',
+//     capital: 'Nur-Sultan',
+//     language: 'Kazakh',
+//     population: 18.75,
+//     neighbours: [
+//         'Russia',
+//         'China',
+//         'Kyrgyzstan',
+//         'Uzbekistan',
+//         'Turkmenistan'
+//     ],
+//     describe: function () {
+//         return `${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}.`;
+//     },
+//     checkIsland: function () {
+//         this.isIsland = this.neighbours.length === 0 ? true : false;
+//     }
+// };
+
+// console.log(myCountry.checkIsland());
+// console.log(myCountry)
+
