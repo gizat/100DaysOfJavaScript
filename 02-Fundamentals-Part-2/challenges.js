@@ -37,35 +37,65 @@
 
 // CODING CHALLENCE #3
 
-const mark = {
-    firstName: 'Mark',
-    lastName: 'Miller',
-    mass: 78,
-    height: 1.69,
+// const mark = {
+//     firstName: 'Mark',
+//     lastName: 'Miller',
+//     mass: 78,
+//     height: 1.69,
 
-    calcBMI: function () {
-        this.bmi = this.mass / this.height ** 2;
-        return this.bmi;
-    }
-};
+//     calcBMI: function () {
+//         this.bmi = this.mass / this.height ** 2;
+//         return this.bmi;
+//     }
+// };
 
-const john = {
-    firstName: 'John',
-    lastName: 'Smith',
-    mass: 92,
-    height: 1.95,
+// const john = {
+//     firstName: 'John',
+//     lastName: 'Smith',
+//     mass: 92,
+//     height: 1.95,
 
-    calcBMI: function () {
-        this.bmi = this.mass / this.height ** 2;
-        return this.bmi;
-    }
-};
+//     calcBMI: function () {
+//         this.bmi = this.mass / this.height ** 2;
+//         return this.bmi;
+//     }
+// };
 
-mark.calcBMI();
-john.calcBMI();
+// mark.calcBMI();
+// john.calcBMI();
 
-if (mark.bmi > john.bmi) {
-    console.log(`${mark.firstName}'s BMI (${mark.bmi}) is higher than ${john.firstName}'s BMI (${john.bmi}).`);
-} else {
-    console.log(`${john.firstName}'s BMI (${john.bmi}) is higher than ${mark.firstName}'s BMI (${mark.bmi}).`);
-};
+// if (mark.bmi > john.bmi) {
+//     console.log(`${mark.firstName}'s BMI (${mark.bmi}) is higher than ${john.firstName}'s BMI (${john.bmi}).`);
+// } else {
+//     console.log(`${john.firstName}'s BMI (${john.bmi}) is higher than ${mark.firstName}'s BMI (${mark.bmi}).`);
+// };
+
+// CODING CHALLENCE #4
+
+// const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+// const tips = [];
+// const totals = [];
+
+// const calcTip = function (bill) {
+//     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20;
+// }
+
+// for (let i = 0; i < bills.length; i++) {
+//     const tip = calcTip(bills[i]);
+//     tips.push(tip);
+//     const total = tip + bills[i];
+//     totals.push(total);
+// }
+
+// console.log(tips);
+// console.log(totals);
+
+// const calcAverage = function (arr) {
+//     let total = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         total += arr[i];
+//     }
+//     return total / arr.length;
+// }
+
+// console.log(calcAverage(totals));
