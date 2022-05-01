@@ -1,3 +1,9 @@
 'use strict';
 
-// Today is the theory day: studying how JavaScript works behind the scene
+console.log(me);
+console.log(job);
+console.log(year);
+
+var me = 'Gizat';
+let job = 'Programmer';
+const year = 2000;
