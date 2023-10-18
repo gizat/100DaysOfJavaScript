@@ -2,7 +2,9 @@ let country = "Kazakhstan";
 const continent = "Eurasia";
 let population = 18.75;
 const isIsland = false;
-const language = 'kazakh';
+const language = "kazakh";
+
+// test
 
 // console.log(population / 2)
 
@@ -33,7 +35,6 @@ const language = 'kazakh';
 //     console.log('No borders.')
 // }
 
-
 // switch (language) {
 //     case 'chinese':
 //     case 'mandarin':
@@ -56,4 +57,3 @@ const language = 'kazakh';
 // }
 
 // console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} average.`)
-
